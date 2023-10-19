@@ -87,10 +87,6 @@ Supporting readings:
 - [Uniswap Whitepaper](https://uniswap.org/whitepaper-v3.pdf)
 - [Concentrated Liquidity README](https://github.com/osmosis-labs/osmosis/blob/main/x/concentrated-liquidity/README.md)
 
-## Acknowledgements For Reviewer (Not Part of Assignment)
-
-- For CFMM pools, all LPs earn the same APR per unit of liquidity. CFMM pool rewards can also be auto-distributed directly into the pool. As a result, it does not actually make perfect sense to use the accumulators for this context. Accumulators are more applicable for concentrated liquidity positions where each position has a different APR stemming from the custom range. However, we define the assignment this way for simplicity since dealing with concentrated liquidity positions is more difficult.
-
 ## Sources
 
 Suggestions: first link is an easier and shorter read that is recommended for this assignment.
